@@ -1,0 +1,22 @@
+* {
+    margin: 10px auto;
+}
+
+header {
+    background-color: bisque;
+    max-width: 85%;
+    flex-direction: row;
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 0px;
+    border: solid 4px;
+}
+
+header p.links{
+    font-size: 25px;
+}
+header p.links:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+    text-decoration: underline;
+}
