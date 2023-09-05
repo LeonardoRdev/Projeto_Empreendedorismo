@@ -49,3 +49,58 @@ div.valorVisaoMissao p{
     padding: 30px;
     font-size: 18px;
 }
+
+footer{
+    background-color: rgb(128, 128, 128);
+    padding: 60px 50px 100px 50px;
+    margin: -20px auto;
+}
+
+footer div#contato{
+    background-color: antiquewhite;
+    width: 15%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: solid 3px;
+}
+
+footer div#contato h2{
+    font-size: 26px;
+    text-align: center;
+}
+
+#afiliadoTitulo{
+    width: 25%;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 40px;
+    background-color: coral;
+    border: solid 3px;
+    text-align: center;
+}
+
+footer div#afiliados{
+    text-align: center;
+    margin: 25px auto;
+    width: 75%;
+    background-color: rgb(182, 182, 182);
+    padding: 5px 0px;
+}
+
+footer div#afiliados p{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+footer div#afiliados #afiliadosCima{
+    display: flex;
+    flex-direction: row;
+}
+
+footer div#afiliados #afiliadosBaixo{
+    display: flex;
+    flex-direction: row;
+}
