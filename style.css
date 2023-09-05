@@ -13,10 +13,39 @@ header {
 }
 
 header p.links{
-    font-size: 25px;
+    font-size: 20px;
 }
 header p.links:hover{
     transform: scale(1.10);
     cursor: pointer;
     text-decoration: underline;
+}
+
+div#corpoCentral{
+    /* background-color: #AAAAAA; */
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+div.valorVisaoMissao{
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    /* border: solid 5px; */
+    margin: 50px 25px;
+    padding: 15px;
+}
+
+div.valorVisaoMissao h2{
+    font-size: 46px;
+}
+
+div.valorVisaoMissao p{
+    border: solid;
+    background-color: burlywood;
+    padding: 30px;
+    font-size: 18px;
 }
