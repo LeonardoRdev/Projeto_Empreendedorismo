@@ -28,7 +28,7 @@ div#corpoCentral{
     /* background-color: #AAAAAA; */
     margin-top: 40px;
     display: flex;
-    text-align: center;
+    text-align: left;
     max-width: 50%;
     flex-direction: column;
 }
@@ -47,6 +47,7 @@ div.valorVisaoMissao h2{
 }
 
 div.valorVisaoMissao p{
+    width: 85%;
     border: solid;
     background-color: burlywood;
     padding: 30px;
