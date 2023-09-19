@@ -13,6 +13,15 @@ header {
     border-radius: 20px;
 }
 
+body {
+    background-image: url("logo_protech_consulting_75porcent.png");
+    background: Cover;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header p.links{
     font-size: 20px;
     transition: 0.25s;
@@ -34,10 +43,8 @@ div#corpoCentral{
 }
 
 div.valorVisaoMissao{
-    /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
-    /* border: solid 5px; */
     margin: 50px 25px;
     padding: 15px;
 }
@@ -47,11 +54,16 @@ div.valorVisaoMissao h2{
 }
 
 div.valorVisaoMissao p{
-    width: 85%;
-    border: solid;
-    background-color: burlywood;
-    padding: 30px;
     font-size: 18px;
+}
+
+div.descricao_valor_visao_missao{
+    background-color: burlywood;
+    width: 85%;
+    border: solid 4px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 1px;
+    padding: 25px;
 }
 
 footer{
@@ -71,7 +83,7 @@ footer{
     text-align: center;
 }
 
-footer div#afiliados{
+footer div#afiliados_outline{
     text-align: center;
     margin: 25px auto;
     width: 75%;
@@ -80,25 +92,24 @@ footer div#afiliados{
     border-radius: 15px;
 }
 
-footer div#afiliados p{
+footer div#afiliados_outline p{
     display: flex;
     flex-direction: column;
     margin: 30px auto;
     font-size: 20px;
 }
 
-div#afiliados #afiliadosCima, div#afiliados #afiliadosBaixo{
+#empresas_afiliadas1, #empresas_afiliadas2{
     display: flex;
-    flex-direction: row;
 }
 
-div#afiliados #afiliadosCima p:hover, div#afiliados #afiliadosBaixo p:hover{
+#empresas_afiliadas1 p:hover, #empresas_afiliadas2 p:hover{
     transform: scale(1.10);
     cursor: pointer;
     transition: 0.20s;
 }
 
-#afiliadosCima p, #afiliadosBaixo p{
+#empresas_afiliadas1 p, #empresas_afilaidas2 p{
     transition: 0.20s;
 }
 
@@ -111,18 +122,12 @@ footer h3#entre_em_contato {
 div#contato1, div#contato2 {
     margin: 15px auto;
     display: flex;
-    color: white;
     width: 55%;
-    color: black;
 }
 
 div#contato2 {
     margin: 0px auto;
     width: 35%;
-}
-
-div#contato2 h4{
-    margin: 0px auto;
 }
 
 #contato1 h4, #contato2 h4{
