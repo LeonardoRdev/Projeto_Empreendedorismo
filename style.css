@@ -57,6 +57,7 @@ main .valorVisaoMissao h2{
 
 main .valorVisaoMissao p{
     font-size: 18px;
+    margin: 10px 0;
 }
 
 main .descricao_valor_visao_missao{
@@ -103,30 +104,39 @@ footer #campo_empresas_afiliadas p{
 }
 
 .empresa_afiliada{
-    width: 33%;
+    width: 33.3%;
     text-align: center;
+}
+
+.empresa_afiliada p{
+    width: 35%;
+    transition: 0.25s;
+}
+
+.empresa_afiliada p:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: 0.25s;
 }
 
 
 
-footer h3#entre_em_contato {
-    margin-top: 50px;
+footer #entre_em_contato {
+    margin-top: 80px;
     text-align: center;
     color: hsl(120,100%,55%);
+    text-shadow: 2px 2px 5px black;
 }
 
-footer #contato1, footer #contato2 {
-    margin: 15px auto;
+footer #contatos {
+    background-color: rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 10px auto;
     display: flex;
-    width: 55%;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
-footer #contato2 {
-    margin: 0px auto;
-    width: 35%;
-}
-
-footer #contato1 h4, footer #contato2 h4{
-    display: flex;
-    margin: 0 auto;
+footer .nossos_contatos p{
+    margin: 10px 20px;
 }
