@@ -1,25 +1,17 @@
 * {
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: bisque;
     max-width: 85%;
-    flex-direction: row;
     display: flex;
     margin-top: 15px;
-    padding: 10px 0px;
-    border: solid 4px;
+    padding: 15px 0px;
+    border: solid 4px black;
     border-radius: 20px;
-}
-
-body {
-    background-image: url("logo_protech_consulting_75porcent.png");
-    background: Cover;
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 header p.links{
@@ -33,31 +25,41 @@ header p.links:hover{
     transition: 0.25s;
 }
 
-div#corpoCentral{
-    /* background-color: #AAAAAA; */
-    margin-top: 40px;
+body {
+    background-image: url("logo_protech_consulting_75porcent.png");
+    background: Cover;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+main#corpoCentral{
+    margin-top: 60px;
     display: flex;
-    text-align: left;
-    max-width: 50%;
+    max-width: 60%;
     flex-direction: column;
 }
 
-div.valorVisaoMissao{
+main .valorVisaoMissao{
     display: flex;
     flex-direction: column;
-    margin: 50px 25px;
-    padding: 15px;
+    margin: 30px 25px 100px;
 }
 
-div.valorVisaoMissao h2{
+main .valorVisaoMissao h2{
+    padding: 0px 100px;
     font-size: 46px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255));
 }
 
-div.valorVisaoMissao p{
+main .valorVisaoMissao p{
     font-size: 18px;
 }
 
-div.descricao_valor_visao_missao{
+main .descricao_valor_visao_missao{
     background-color: burlywood;
     width: 85%;
     border: solid 4px;
@@ -66,13 +68,15 @@ div.descricao_valor_visao_missao{
     padding: 25px;
 }
 
+
+
 footer{
-    background-color: rgb(128, 128, 128);
-    padding: 60px 50px 100px 50px;
-    margin: 60px 0px -60px 0px;
+    background-color: rgb(136, 136, 136);
+    padding: 60px 0;
+    margin-top: 60px;
 }
 
-#afiliadoTitulo{
+footer #afiliados_titulo{
     width: 25%;
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -83,35 +87,27 @@ footer{
     text-align: center;
 }
 
-footer div#afiliados_outline{
-    text-align: center;
+footer #campo_empresas_afiliadas{
     margin: 25px auto;
     width: 75%;
     background-color: rgb(182, 182, 182);
-    padding: 5px 0px;
+    padding: 10px;
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-footer div#afiliados_outline p{
-    display: flex;
-    flex-direction: column;
+footer #campo_empresas_afiliadas p{
     margin: 30px auto;
     font-size: 20px;
 }
 
-#empresas_afiliadas1, #empresas_afiliadas2{
-    display: flex;
+.empresa_afiliada{
+    width: 33%;
+    text-align: center;
 }
 
-#empresas_afiliadas1 p:hover, #empresas_afiliadas2 p:hover{
-    transform: scale(1.10);
-    cursor: pointer;
-    transition: 0.20s;
-}
 
-#empresas_afiliadas1 p, #empresas_afilaidas2 p{
-    transition: 0.20s;
-}
 
 footer h3#entre_em_contato {
     margin-top: 50px;
@@ -119,18 +115,18 @@ footer h3#entre_em_contato {
     color: hsl(120,100%,55%);
 }
 
-div#contato1, div#contato2 {
+footer #contato1, footer #contato2 {
     margin: 15px auto;
     display: flex;
     width: 55%;
 }
 
-div#contato2 {
+footer #contato2 {
     margin: 0px auto;
     width: 35%;
 }
 
-#contato1 h4, #contato2 h4{
+footer #contato1 h4, footer #contato2 h4{
     display: flex;
     margin: 0 auto;
 }
