@@ -1,28 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    background-color: bisque;
-    max-width: 85%;
-    display: flex;
-    margin-top: 15px;
-    padding: 15px 0px;
-    border: solid 4px black;
-    border-radius: 20px;
-}
-
-header p.links{
-    font-size: 20px;
-    transition: 0.25s;
-}
-header p.links:hover{
-    transform: scale(1.10);
-    cursor: pointer;
-    text-decoration: underline;
-    transition: 0.25s;
 }
 
 body {
@@ -36,21 +19,46 @@ body {
 
 
 
+header {
+    background-color: bisque;
+    max-width: 85%;
+    display: flex;
+    margin-top: 15px;
+    padding: 15px 0px;
+    border: solid 4px black;
+    border-radius: 20px;
+}
+
+header a.links{
+    font-size: 20px;
+    transition: 0.25s;
+    text-decoration: none;
+    color: black;
+}
+
+header a.links:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+
+
 main#corpoCentral{
     margin-top: 60px;
     display: flex;
-    max-width: 60%;
     flex-direction: column;
+    max-width: 60%;
 }
 
 main .valorVisaoMissao{
     display: flex;
     flex-direction: column;
-    margin: 30px 25px 100px;
+    margin: 30px 0 100px;
 }
 
 main .valorVisaoMissao h2{
-    padding: 0px 100px;
     font-size: 46px;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255));
 }
@@ -78,7 +86,7 @@ footer{
 }
 
 footer #afiliados_titulo{
-    width: 25%;
+    width: 350px;
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: monospace;
