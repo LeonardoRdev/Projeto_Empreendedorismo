@@ -53,26 +53,27 @@ nav a.links:hover{
 
 
 
-main#corpoCentral{
+main#corpo_central{
+    /* background-color: aqua; */
     margin-top: 60px;
     display: flex;
     flex-direction: column;
     max-width: 60%;
 }
 
-main .valorVisaoMissao{
+main .valor_visao_missao{
     display: flex;
     flex-direction: column;
     margin: 30px 0 100px;
 }
 
-main .valorVisaoMissao h2{
+main .valor_visao_missao h2{
     padding: 0 35px;
     font-size: 46px;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255));
 }
 
-main .valorVisaoMissao p{
+main .valor_visao_missao p{
     font-size: 18px;
     margin: 10px 0;
 }
@@ -89,6 +90,7 @@ main .descricao_valor_visao_missao{
 
 
 footer{
+    box-shadow: 0 0 15px 2px;
     background-color: rgb(136, 136, 136);
     padding: 60px 0;
     margin-top: 60px;
@@ -97,19 +99,20 @@ footer{
 footer div#afiliados{
     width: 30%;
     padding: 25px 0;
-    background-color: hsl(190, 95%, 63%);
+    background-color: hsl(190, 100%, 69%);
     border: solid 3px;
     text-align: center;
 }
 
 footer div#afiliados h2{
     font-size: 2rem;
+    font-family: 'Young Serif', serif
 }
 
 footer #campo_empresas_afiliadas{
     margin: 25px auto;
     width: 75%;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(180, 180, 180);
     padding: 10px;
     border-radius: 15px;
     display: flex;
@@ -153,6 +156,7 @@ footer #contatos {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    text-align: center;
 }
 
 footer .nossos_contatos p{
@@ -165,7 +169,45 @@ footer .nossos_contatos p{
 
 
 @media only screen and (max-width: 700px){
+
+    body{
+        background-size: 50%;
+    }
+
+    main#corpo_central{
+        max-width: 100%;
+    }
+
     footer div#afiliados h2{
         font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    
+    header{
+        padding: 0;
+    }
+
+    nav{
+        max-width: 100%;
+        border-radius: 0px;
+        border: 0;
+        border-bottom: solid 5px black;
+        box-shadow: 0px 1px 10px;
+    }
+
+    nav a{
+        border: 2px solid black;
+        padding: 5px;
+        background-color: rgba(202, 174, 137, 0.65);
+    }
+
+    footer div#afiliados{
+        width: 60%;
+    }
+
+    footer div#afiliados h2{
+        font-size: 1.5em
     }
 }
