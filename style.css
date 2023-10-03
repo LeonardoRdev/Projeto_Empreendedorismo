@@ -94,15 +94,16 @@ footer{
     margin-top: 60px;
 }
 
-footer #afiliados{
-    width: 350px;
-    font-size: 35px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: monospace;
-    padding: 20px 40px;
+footer div#afiliados{
+    width: 30%;
+    padding: 25px 0;
     background-color: hsl(190, 95%, 63%);
     border: solid 3px;
     text-align: center;
+}
+
+footer div#afiliados h2{
+    font-size: 2rem;
 }
 
 footer #campo_empresas_afiliadas{
@@ -156,4 +157,15 @@ footer #contatos {
 
 footer .nossos_contatos p{
     margin: 10px 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    footer div#afiliados h2{
+        font-size: 1.5em;
+    }
 }
