@@ -38,7 +38,7 @@ nav {
 }
 
 nav a.links{
-    font-size: 20px;
+    font-size: 1.25em;
     transition: 0.25s;
     text-decoration: none;
     color: black;
@@ -150,7 +150,7 @@ footer #entre_em_contato {
 }
 
 footer #contatos {
-    background-color: rgb(110, 110, 110);
+    background-color: rgba(219, 200, 175, 0.6);
     border-radius: 15px;
     margin: 10px auto;
     display: flex;
@@ -209,5 +209,13 @@ footer .nossos_contatos p{
 
     footer div#afiliados h2{
         font-size: 1.5em
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    nav a.links{
+        font-size: 1em;
+        background-color: aqua;
     }
 }
