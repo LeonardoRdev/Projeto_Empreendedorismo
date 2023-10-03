@@ -119,18 +119,15 @@ footer #campo_empresas_afiliadas{
     flex-wrap: wrap;
 }
 
-footer #campo_empresas_afiliadas p{
-    margin: 30px auto;
-    font-size: 20px;
-}
-
-.empresa_afiliada{
-    width: 33.3%;
+div.empresa_afiliada{
+    margin: 20px auto;
+    width: 280px;
     text-align: center;
+    display: flex;
 }
 
 .empresa_afiliada p{
-    width: 30%;
+    font-size: 1.6em;
     transition: 0.15s;
 }
 
@@ -216,6 +213,5 @@ footer .nossos_contatos p{
 
     nav a.links{
         font-size: 1em;
-        background-color: aqua;
     }
 }
