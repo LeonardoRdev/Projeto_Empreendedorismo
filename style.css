@@ -12,31 +12,39 @@ body {
     background-image: url("logo_protech_consulting_75porcent.png");
     background: Cover;
     background-repeat: no-repeat;
-    background-size: 25%;
+    background-size: 30%;
     background-position: center;
     background-attachment: fixed;
 }
 
 
 
-header {
+header{
+    top: 0;
+    position: sticky;
+    padding: 15px 0 0;
+    background: linear-gradient(rgb(255, 221, 221) 65%, rgba(255, 255, 255, 0));
+}
+
+
+
+nav {
     background-color: bisque;
     max-width: 85%;
     display: flex;
-    margin-top: 15px;
     padding: 15px 0px;
     border: solid 4px black;
     border-radius: 20px;
 }
 
-header a.links{
+nav a.links{
     font-size: 20px;
     transition: 0.25s;
     text-decoration: none;
     color: black;
 }
 
-header a.links:hover{
+nav a.links:hover{
     transform: scale(1.10);
     cursor: pointer;
     text-decoration: underline;
@@ -59,6 +67,7 @@ main .valorVisaoMissao{
 }
 
 main .valorVisaoMissao h2{
+    padding: 0 35px;
     font-size: 46px;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255));
 }
@@ -85,7 +94,7 @@ footer{
     margin-top: 60px;
 }
 
-footer #afiliados_titulo{
+footer #afiliados{
     width: 350px;
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -117,8 +126,8 @@ footer #campo_empresas_afiliadas p{
 }
 
 .empresa_afiliada p{
-    width: 35%;
-    transition: 0.25s;
+    width: 30%;
+    transition: 0.15s;
 }
 
 .empresa_afiliada p:hover{
